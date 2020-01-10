@@ -1,0 +1,223 @@
+/*-------------------------------*
+ * COULEURS DE TEXTE ET FONDS    *
+ *-------------------------------*/
+section {
+    background-color: #a0c5da;
+}
+
+footer {
+    color: #14586d;
+}
+h1{
+	color: #612661;
+	background: #94d1d5;
+	border: 2px solid #612661;	
+	display: inline-block;
+	padding: 5px 10px;
+	
+}
+legend,
+h2,
+h3, 
+h4,
+p,
+li,
+table,
+label{
+    color: #612661;
+}
+
+body {
+    background-image: url(images/ocean.jpg);
+    background-size: auto;
+	background-repeat: repeat;
+}
+
+main {
+    background-color: #082a58;
+}
+
+header {
+    background-color: #082a58;
+}
+
+footer {
+    background-color: #0b4189;
+}
+/*-------------------------------*
+ * ASPECT DES BOUTONS DU SITE    *
+ *-------------------------------*/
+.btn {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #ddd;
+	border: 2px solid #612661;
+	color: #612661;
+}
+/*-------------------------------*
+ * MARGINS, PADDING ET BORDERS   *
+ *-------------------------------*/
+input{
+	width: 25%;
+  	padding: 12px 20px;
+  	margin: 8px 0;
+}
+header {
+    padding: 30px 0;
+}
+
+footer {
+    padding: 50px 10px;
+}
+
+#corps {
+    border: 1px solid #000000;
+    margin: 0 200px;
+
+}
+
+#logos {
+    padding: 30px 0;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+main article {
+    border: 2px solid #7C8BBF;
+    padding: 20px 0;
+}
+
+section {
+    padding: 50px 10px;
+}
+
+/*-------------------------------*
+ *              TEXT             *
+ *-------------------------------*/
+h1,
+h2,
+blockquote,
+h3,
+legend,
+th {
+    text-align: center;
+}
+
+p,label {
+    text-align: center;
+}
+
+.fab {
+    font-size: 100px;
+}
+
+#intros {
+    font-size: 20px;
+}
+
+footer figure,
+footer p,h3,
+.card-body h4 {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table {
+    margin: 10px auto auto auto;
+    border-radius: 5px;
+    width: 50%;
+    float: none;
+    border: 2px solid #FFFFFFFF;
+}
+
+#margge {
+    border: 2px solid #FFFFFFFF;
+    border-radius: 5px;
+    margin: 10px auto auto auto;
+}
+/*-----------------------------------*
+ *           FONTS                   *
+ *-----------------------------------*/
+h1,
+h2,
+h3,
+h4,
+p,
+legend,
+table,label {
+    font-family : calibri Light;
+    font-weight: bold;
+}
+#couleurRJ{
+    color : red;
+    background-color: yellow;
+}
+#couleur_rose{
+	color : pink
+}
+
+/*-----------------------------------*
+ *              IMAGES               *
+ *-----------------------------------*/
+#logo {
+    width: 100px;
+    height: 82px;
+}
+
+#chimage {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+/*-------------------------------*
+ *        FIL D'ARIANE           *
+ *-------------------------------*/
+aside {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    padding: 2px;
+    bottom: 250px;
+    left: 0%;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 2px 2px black;
+}
+
+aside img {
+    width: 50px;
+    height: 50px;
+}
+
+#ariane {
+    justify-content: left;
+}
+
+@media screen and (max-width: 992px)
+{
+    #corps {
+        margin: 0 50px;
+    }
+
+}
+
+@media screen and (max-width: 640px)
+{
+    #corps {
+        margin:0 25px;
+    }
+    main{
+        padding:5px;
+    }
+}

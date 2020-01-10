@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Raphaël Chevochot</title>
+	<meta name="description" content="site web" />
+	<meta name="keywords" content="Raphael Chevochot, Chevochot Raphael, Chevochot Raphaël, Raphaël Chevochot" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link href="fontawesome/css/all.css" rel="stylesheet">
+	<script src="javas.js"></script>
+</head>
+
+<body>
+	<div id="corps">
+		<form action="traitement.php" method="GET">
+			<fieldset>
+				<section><h1> Inscription</h1></section>
+				<section id="radio">
+					<p>Homme</p><input type="radio" id="homme" name="drone" value="Homme">
+					<p>Femme</p><input type="radio" id="femme" name="drone" value="Femme">
+					<p>Autre</p><input type="radio" id="autre" name="drone" value="Autre">
+				</section>
+				<section id="deux">			
+					<p>Prénom:</p>
+					<input type="text" name="Prénom" required>
+					<p>Nom:</p>
+				    <input type="text" name="Nom" required><br>
+				</section>
+				<section id="trois">
+					<p>Adresse mail:</p>
+					<input type="email" name="mail" required><br>
+					<p>Mot de passe (8 caractères minimum):</p>
+					<input type="password" id="pass" name="password" minlength="8" required>
+				</section>
+				<section id="quatre">
+					<p>Entrer votre numéro de téléphone:</p>
+					<input type="tel" id="phone" name="Numéro de téléphone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+				</section>
+			</fieldset>
+			<fieldset>
+				<section id="cinq">
+					<input type="submit" name="envoi" value="Valider">
+					<input type="submit" value="retour">
+				</section>
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>
