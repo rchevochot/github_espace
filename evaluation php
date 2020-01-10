@@ -1,0 +1,83 @@
+langage de script coté serveur
+collecter les données, les gérer, et également les cookies
+
+$variable : variable dynamique
+
+' ' : délimiteurs
+ou " "
+
+<form action="traitement.php" method="GET"> lier html et php
+
+while,do while,for,foreach,if,switch
+function name(..,..){}
+
+include : inclus et execute un fichier,alerte si absent
+require : inclus et execute un fichier,erreur en cas d'abscence
+
+fonction.php:
+<?php 
+function mafonction($p1,$p2){...} 
+?> 
+
+utilisation:
+<?php 
+include('fonctions.php’);
+... 
+$r=mafonction(1,2); 
+... 
+?>
+
+fichierconnection.php
+<?php 
+$serveur = "localhost"; 
+$id = "postgres"; 
+$mdp = "postgres"; 
+$base="postgres"; 
+?>
+include('connexion.php');
+
+die(message) : affichage message d erreur de connexion
+
+throw,try,catch
+On va définir quand une exception doit être lancée avec une instruction throw ;
+On va créer un bloc catch dont le but va être d’attraper l’exception si celle-ci a été lancée et de définir la façon dont doit être gérée l’erreur.
+On va utiliser un bloc try dans lequel le code qui peut potentiellement retourner une erreur va être exécuté.
+
+<lien connexion>->select_db("<nombase<"); : connexion a la base
+
+pg_close(<lien connexion>) : fermeture lien pour eviter trop de connexion en meme temps
+
+query : execute requete
+
+or die
+
+<input type="email"/> 
+
+• min: valeur minimum autorisée 
+• max: valeur maximum autorisée 
+• step: granularit
+
+ $_GET['nomChamp']ou $_POST['nomChamp']  : utilisation des données d'un formulaire
+
+
+cookies:
+setcookie(<nom>,<valeur>,<validité>,<chemin>,<domaine>,SSL) 
+
+ouverture session : session start
+session name
+
+• Enregistrement 
+$_SESSION["nom_variable"] = valeur; 
+• Lecture des informations stockées 
+$_SESSION["nom_variable"]
+
+session destroy : supprime une session
+
+// on active le mécanisme de session 
+session_start() ; 
+// on incrémente le nombre de requête 
+$_SESSION[“nb_req”]++ ; 
+// Si début est vide, c'est la première fois et on enregistre l'heure 
+if ( empty($_SESSION[“debut”]) ) { $_SESSION[“debut”] = time() ; } 
+// on calcule le temps de connexion 
+$temps = time() - $_SESSION[“debut”] ;
