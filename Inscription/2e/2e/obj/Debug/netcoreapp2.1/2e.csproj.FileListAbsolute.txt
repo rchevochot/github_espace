@@ -1,0 +1,11 @@
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.csprojAssemblyReference.cache
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.csproj.CoreCompileInputs.cache
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.AssemblyInfoInputs.cache
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.AssemblyInfo.cs
+C:\Users\Raphaël\source\repos\2e\2e\bin\Debug\netcoreapp2.1\2e.deps.json
+C:\Users\Raphaël\source\repos\2e\2e\bin\Debug\netcoreapp2.1\2e.runtimeconfig.json
+C:\Users\Raphaël\source\repos\2e\2e\bin\Debug\netcoreapp2.1\2e.runtimeconfig.dev.json
+C:\Users\Raphaël\source\repos\2e\2e\bin\Debug\netcoreapp2.1\2e.dll
+C:\Users\Raphaël\source\repos\2e\2e\bin\Debug\netcoreapp2.1\2e.pdb
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.dll
+C:\Users\Raphaël\source\repos\2e\2e\obj\Debug\netcoreapp2.1\2e.pdb
